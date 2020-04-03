@@ -1,0 +1,49 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" (click)="navigate(pathItem[0])">Covid Akuten</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" (click)="navigate(pathItem[0])">Hem<span class="sr-only">(current)</span></a>
+        </li>
+    <!-- Dropdown -->
+
+         <!-- Dropdown -->
+    <!--<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Beräkna skatt 
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" (click)="navigate(pathItem[0])" >Aktiebolag</a>
+          <a class="dropdown-item" href="#">Enskild Firma</a>
+          <a class="dropdown-item" href="#">Handelsbolag</a>
+        </div>
+      </li>-->
+
+        <!--<a class="dropdown-item" [routerLink]="['/Info']" >Aktiebolag</a>-->
+
+         <!-- Dropdown -->
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+           Test
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">test1</a>
+          <a class="dropdown-item" href="#">test2</a>
+        </div>
+      </li>
+
+        <li class="nav-item">
+          <a class="nav-link" (click)="navigate(pathItem[1])">Om oss</a>
+        </li>
+  
+      </ul>
+      <!--<form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+      </form>-->
+    </div>
+  </nav>
