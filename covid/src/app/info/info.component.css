@@ -25,3 +25,20 @@
 .card-footer{
     border: none;
 }
+
+.list-group-item-action:hover {
+    z-index: 1;
+    
+    text-decoration: none;
+    background-color: #dfdfdf;
+}
+
+.add-border{
+    border: 0.2rem solid #39cfba;
+}
+
+.fixed
+{
+    position: fixed;
+   
+}
