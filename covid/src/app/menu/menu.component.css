@@ -1,0 +1,31 @@
+.menu {
+padding: 10px 0px 10px 0px;
+/*border-bottom: solid 1px;*/
+border-bottom: .3rem solid #39cfba;
+}
+
+a{
+    font-size: 21px;
+    cursor: pointer;
+}
+
+a:hover{
+    
+    border-bottom: .3rem solid #39cfba;
+    
+}
+
+.navbar-brand {
+    font-size: 30px;
+    
+}
+.navbar-brand:hover  {
+    font-size: 30px;
+    border-bottom: none;
+    
+}
+
+.navbar-nav {
+    height: 38px;
+}
+

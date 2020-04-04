@@ -1,0 +1,27 @@
+.margin-top{
+    margin-top: 78px;
+}
+
+.article {
+   
+    border-bottom: .3rem solid #39cfba;
+
+    padding: 50px 0px 50px 0px;
+    
+}
+
+.card {
+    border: none;
+}
+
+.card-header {
+    border: none;
+}
+
+.card-body {
+    border: none;
+}
+
+.card-footer{
+    border: none;
+}
